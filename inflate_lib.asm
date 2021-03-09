@@ -1,5 +1,5 @@
 ; inflate - uncompress data stored in the DEFLATE format
-; by Piotr Fusik <foxAscene.pl>
+; by Piotr Fusik <fox@scene.pl>
 ; Last modified: 2017-11-07
 ;   from https://github.com/pfusik/zlib6502
 
