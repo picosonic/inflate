@@ -1,7 +1,7 @@
 # inflate
 Demo of decompression of data in the DEFLATE format on the BBC Micro using 6502 assembler
 
-This demo loads a fullscreen Mode 0 image into screen memory decompressing as it goes.
+This demo loads a fullscreen Mode 0 image into screen memory decompressing as it goes. The picture was drawn by myself in the late 80s on a BBC Micro using Wapping Editor and a Quest mouse.
 
 ![3D Tutankhamun](3dtut.png?raw=true "3D Tutankhamun")
 
