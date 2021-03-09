@@ -12,3 +12,5 @@ inflate - uncompress data stored in the DEFLATE format
 by Piotr Fusik <fox@scene.pl>
 Last modified: 2017-11-07
 ```
+
+The library uses zlib license which can be seen in the file `inflate_lib.asm`
