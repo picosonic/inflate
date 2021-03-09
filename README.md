@@ -1,12 +1,14 @@
 # inflate
-Demo of using INFLATE decompression on the BBC Micro
+Demo of decompression of data in the DEFLATE format on the BBC Micro using 6502 assembler
 
-This loads a fullscreen Mode 0 image into screen memory decompressing as it goes.
+This demo loads a fullscreen Mode 0 image into screen memory decompressing as it goes.
 
 ![3D Tutankhamun](3dtut.png?raw=true "3D Tutankhamun")
 
-Derived from https://github.com/pfusik/zlib6502
+Library used is from https://github.com/pfusik/zlib6502 with changes to allow assembling with beebasm
 
+```
 inflate - uncompress data stored in the DEFLATE format
 by Piotr Fusik <fox@scene.pl>
 Last modified: 2017-11-07
+```
