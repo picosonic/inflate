@@ -473,25 +473,25 @@ CONTROL_SYMBOLS                 =	LENGTH_SYMBOLS+DISTANCE_SYMBOLS
 ; Data for building trees
 
 .literalSymbolCodeLength
-	org	*+256
+	SKIP 256
 .controlSymbolCodeLength
-	org	*+CONTROL_SYMBOLS
+	SKIP CONTROL_SYMBOLS
 
 ; Huffman trees
 
 .nBitCode_clearFrom
 .nBitCode_literalCount
-	org	*+2*TREE_SIZE
+	SKIP 2*TREE_SIZE
 .nBitCode_controlCount
-	org	*+2*TREE_SIZE
+	SKIP 2*TREE_SIZE
 .nBitCode_literalOffset
-	org	*+2*TREE_SIZE
+	SKIP 2*TREE_SIZE
 .nBitCode_controlOffset
-	org	*+2*TREE_SIZE
+	SKIP 2*TREE_SIZE
 .allLiteralsCodeLength
-	org	*+1
+	SKIP 1
 
 .codeToLiteralSymbol
-	org	*+256
+	SKIP 256
 .codeToControlSymbol
-	org	*+CONTROL_SYMBOLS
+	SKIP CONTROL_SYMBOLS
