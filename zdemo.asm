@@ -5,7 +5,8 @@ INCLUDE "os.asm"
 ORG &50
 
 .inflate_zp
-  EQUW &0000, &0000
+  EQUW &0000 ; Source pointer
+  EQUW &0000 ; Destination pointer
   EQUB &00, &00, &00, &00, &00, &00
 
 ORG &1200
